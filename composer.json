@@ -1,0 +1,24 @@
+{
+  "name": "upc/upc-payment-sdk",
+  "type": "library",
+  "description": "Your package description goes here",
+  "keywords": ["relevant","tags","go","here"],
+  "homepage": "https://yourcompany.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordi Boggiano",
+      "email": "j.boggiano@seld.be",
+      "homepage": "http://seld.be",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "gamegos/jws": "^1.0"
+  },
+  "autoload": {
+        "psr-4": {
+            "UPC\\": ["app", "tests"]
+        }
+    }
+}

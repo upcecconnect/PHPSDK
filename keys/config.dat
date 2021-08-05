@@ -1,0 +1,19 @@
+[req]
+distinguished_name = req_distinguished_name
+
+[req_distinguished_name]
+
+# Країна
+CN = UA
+# Область
+ST = Kievskaya
+# Місто L = Kiev
+#Назва організації
+O = UPC
+# Назва відділення
+OU = IT DEP.
+# Ім'я для сертифіката (Ваше ім'я)
+CN = SERG
+#Email організації
+emailAddress=myaddress@myshop.com
+
